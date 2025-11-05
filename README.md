@@ -5,5 +5,5 @@ Creating a job offer form for Team Rainbow Rocket for the Riipen Project.
 Psy\
 Zoe\
 Mihaly\
-Turan\
+Turan
 
