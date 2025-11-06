@@ -21,6 +21,10 @@
                   "Plan": "lol, as if",
                   "Deductible": "100%"
                   },
+                  "401K":{
+                    "Company Match": "5%",
+                    "Safe Harbor": "1%",
+                  },
               "Other Benefits":{
                   "Transportation": "Orca Card"
         }
