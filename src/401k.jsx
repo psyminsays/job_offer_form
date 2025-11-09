@@ -1,4 +1,10 @@
 function _401k ({offer1, offer2}) {
+    const hilight = (num1, num2) => {
+        if(num1 > num2) {
+            return {color: "green", fontWeight: "bold" }
+        } else {return {}}
+    }
+
     return (
         <div>
             <table>
@@ -10,18 +16,30 @@ function _401k ({offer1, offer2}) {
                 <tbody>
                 <tr>
                     <td>Company Match</td>
-                    <td>{/* offer1.k401.companyMatch */}</td>
-                    <td>{/* offer2.k401.companyMatch */}</td>
+                    <td {/* style= {hilight(offer1.K401.companyMatch, offer2.K401.companyMatch)} */}>
+                        {/* offer1.K401.companyMatch */}
+                    </td>
+                    <td {/* style= {hilight(offer2.K401.companyMatch, offer1.K401.companyMatch)} */}>
+                        {/* offer2.K401.companyMatch */}
+                    </td>
                 </tr>
                 <tr>
                     <td>Non-elective Contribution</td>
-                    <td>{/* offer1.k401.nonElective */}</td>
-                    <td>{/* offer2.k401.nonElective */}</td>
+                    <td {/* style= {hilight(offer1.K401.nonElective, offer2.K401.nonElective)} */}>
+                        {/* offer1.K401.nonElective */}
+                    </td>
+                    <td {/* style= {hilight(offer2.K401.nonElective, offer1.K401.nonElective)} */}>
+                        {/* offer2.K401.nonElective */}
+                    </td>
                 </tr>
                 <tr>
                     <td>Vesting Period</td>
-                    <td>{/* offer1.k401.vesting */}</td>
-                    <td>{/* offer2.k401.vesting */}</td>
+                    <td {/* style= {hilight(offer1.K401.vesting, offer2.K401.vesting)} */}>
+                        {/* offer1.K401.vesting */}
+                    </td>
+                    <td {/* style= {hilight(offer2.K401.vesting, offer1.K401.vesting)} */}>
+                        {/* offer2.K401.vesting */}
+                    </td>
                 </tr>
                 </tbody>
             </table>
