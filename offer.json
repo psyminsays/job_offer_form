@@ -21,9 +21,10 @@
                   "Plan": "lol, as if",
                   "Deductible": "100%"
                   },
-                  "401K":{
+                  "K401":{
                     "Company Match": "5%",
-                    "Safe Harbor": "1%",
+                    "Non-elective Contribution": "1%",
+                    "Vesting Period:": "5 years" 
                   },
               "Other Benefits":{
                   "Transportation": "Orca Card"
