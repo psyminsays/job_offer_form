@@ -32,11 +32,11 @@ function _401k ({offer1, offer2}) {
                         { offer2.K401.nonElective }
                     </td>
                 </tr>
-                <td>
+                <tr>
                     <td>Vesting Period</td>
                     <td style={hilight(offer1.K401.vesting, offer2.K401.vesting)}> {offer1.K401.vesting} </td>
                     <td style={hilight(offer2.K401.vesting, offer1.K401.vesting)}> {offer2.K401.vesting} </td>
-                </td>
+                </tr>
                 </tbody>
             </table>
         </div>
