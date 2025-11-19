@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 function hilight(num1, num2) {
@@ -17,18 +16,18 @@ function ComparisonView({ offer1, offer2 }) {
         <thead>
           <tr>
             <th>Salary</th>
-            <th>{/* offer1.companyName */}</th>
-            <th>{/* offer2.companyName */}</th>
+            <th>{offer1.companyName}</th>
+            <th>{offer2.companyName}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Base Salary</td>
-            <td {/* style={hilight(offer1.salary, offer2.salary)} */}>
-              {/* offer1.salary */}
+            <td style={hilight(offer1.salary, offer2.salary)}>
+              {offer1.salary}
             </td>
-            <td {/* style={hilight(offer2.salary, offer1.salary)} */}>
-              {/* offer2.salary */}
+            <td style={hilight(offer2.salary, offer1.salary)}>
+              {offer2.salary}
             </td>
           </tr>
         </tbody>
