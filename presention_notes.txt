@@ -1,0 +1,16 @@
+What we have:
+  job offer JSON
+  component for displaying 401k
+  component for comparing two job offers
+
+
+What we don't have:
+  a functional prototype
+  a form for entering job offers
+  salary comparison
+  
+  We have a good start for bare bones blueprint. while we have the template for example job offers and a function to check if said job has a 401k. What we also need is an App.jsx to deploy said job offer application. What we could add is a form for the User to enter job offers, which stores as a JSON file offer.JSON (which fills up with more offers over time.) We should probably rename this file to offers.JSON considering that this will be storing multiple job opportunities. Ultimately this is a going to be a dictionary of job offers. The application will search through this dictionary.
+
+  accessible colors in comparison 
+  screen reader compatibility 
+  highlighting function for more things
