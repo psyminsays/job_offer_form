@@ -1,229 +1,39 @@
 {
   "offers": [
     {
-      "id": "uw-med-001",
-      "companyName": "UW Medicine",
-      "jobTitle": "Clinical Research Coordinator II",
-      "city": "Seattle",
-      "state": "WA",
-      "location": "Seattle, WA",
-      "salary": 82000,
-      "signingBonus": 8000,
-      "relocationAssistance": 5000,
-      "vacationDays": 22,
-      "sickDays": 12,
-      "parentalLeave": 16,
-      "ceuBudget": 3500,
-      "conferenceDays": 5,
-      "licenseRenewal": true,
-      "healthLicenseFeeCoverage": true,
-      "malpracticeInsurance": true,
-      "onCallCompensation": 75,
-      "weekendDifferential": 1.5,
-      "transportationBenefit": "Orca Card Provided",
-      "parkingProvided": false,
-      "benefits": {
-        "healthInsurance": {
-          "provider": "Kaiser Permanente Washington",
-          "planType": "Gold PPO",
-          "monthlyPremium": 180,
-          "deductible": 1500,
-          "outOfPocketMax": 4000,
-          "coPay": 25
-        },
-        "dentalInsurance": {
-          "provider": "Delta Dental of Washington",
-          "monthlyPremium": 25,
-          "deductible": 50,
-          "annualMaximum": 1500
-        },
-        "visionInsurance": {
-          "provider": "VSP Vision Care",
-          "monthlyPremium": 10,
-          "examCoPay": 15,
-          "frameAllowance": 150
-        },
-        "K401": {
-          "companyMatch": 5,
-          "nonElective": 2,
-          "vesting": 4,
-          "maxMatchPercentage": 6,
-          "autoEnrollment": true,
-          "loansAllowed": true
-        },
-        "additionalBenefits": {
-          "lifeInsurance": "2x annual salary",
-          "longTermDisability": true,
-          "shortTermDisability": true,
-          "flexibleSpendingAccount": true,
-          "employeeAssistanceProgram": true
+      "id": "unique-id",
+      "companyName": "Organization Name",
+      "jobTitle": "Position Title",
+      "location": {
+        "city": "City Name",
+        "state": "State Abbreviation",
+        "region": "Pacific Northwest",  
+        "coordinates": {               
+          "lat": 47.6062,
+          "lng": -122.3321
         }
       },
-      "professionalDevelopment": {
-        "tuitionReimbursement": 5250,
-        "certificationFeeCoverage": true,
-        "professionalMembershipDues": 500,
-        "researchPublicationSupport": true,
-        "mentorshipProgram": true
-      },
-      "schedule": {
-        "hoursPerWeek": 40,
-        "flexibleHours": true,
-        "remoteWorkDays": 2,
-        "coreHours": "9:00 AM - 3:00 PM"
-      },
-      "notes": "Position includes opportunities for advancement to Senior Clinical Research Coordinator after 2 years with strong performance."
-    },
-    {
-      "id": "multicare-002",
-      "companyName": "MultiCare Health System",
-      "jobTitle": "Clinical Research Specialist",
-      "city": "Tacoma",
-      "state": "WA",
-      "location": "Tacoma, WA",
-      "salary": 78000,
-      "signingBonus": 10000,
-      "relocationAssistance": 7500,
-      "vacationDays": 20,
-      "sickDays": 10,
-      "parentalLeave": 12,
-      "ceuBudget": 2500,
-      "conferenceDays": 4,
-      "licenseRenewal": true,
-      "healthLicenseFeeCoverage": true,
-      "malpracticeInsurance": true,
-      "onCallCompensation": 65,
-      "weekendDifferential": 1.25,
-      "transportationBenefit": "Parking Provided",
-      "parkingProvided": true,
-      "benefits": {
-        "healthInsurance": {
-          "provider": "Premera Blue Cross",
-          "planType": "Silver HSA",
-          "monthlyPremium": 220,
-          "deductible": 2000,
-          "outOfPocketMax": 5000,
-          "coPay": 30
-        },
-        "dentalInsurance": {
-          "provider": "Washington Dental Service",
-          "monthlyPremium": 30,
-          "deductible": 75,
-          "annualMaximum": 1000
-        },
-        "visionInsurance": {
-          "provider": "EyeMed",
-          "monthlyPremium": 12,
-          "examCoPay": 20,
-          "frameAllowance": 120
-        },
-        "K401": {
-          "companyMatch": 4,
-          "nonElective": 3,
-          "vesting": 3,
-          "maxMatchPercentage": 5,
-          "autoEnrollment": true,
-          "loansAllowed": false
-        },
-        "additionalBenefits": {
-          "lifeInsurance": "1.5x annual salary",
-          "longTermDisability": true,
-          "shortTermDisability": true,
-          "flexibleSpendingAccount": true,
-          "employeeAssistanceProgram": true
+      "compensation": {
+        "baseSalary": 85000,
+        "currency": "USD",
+        "adjustmentFactors": {
+          "costOfLivingIndex": 1.4,    
+          "regionalAdjustment": 1.1    
         }
       },
-      "professionalDevelopment": {
-        "tuitionReimbursement": 3000,
-        "certificationFeeCoverage": true,
-        "professionalMembershipDues": 300,
-        "researchPublicationSupport": false,
-        "mentorshipProgram": true
-      },
-      "schedule": {
-        "hoursPerWeek": 40,
-        "flexibleHours": false,
-        "remoteWorkDays": 1,
-        "coreHours": "8:00 AM - 4:00 PM"
-      },
-      "notes": "Position offers clear career ladder with potential for department leadership roles. Strong emphasis on community health research."
-    },
-    {
-      "id": "providence-003",
-      "companyName": "Providence Health & Services",
-      "jobTitle": "Senior Clinical Research Associate",
-      "city": "Spokane",
-      "state": "WA",
-      "location": "Spokane, WA",
-      "salary": 76000,
-      "signingBonus": 6000,
-      "relocationAssistance": 10000,
-      "vacationDays": 25,
-      "sickDays": 15,
-      "parentalLeave": 18,
-      "ceuBudget": 4000,
-      "conferenceDays": 6,
-      "licenseRenewal": true,
-      "healthLicenseFeeCoverage": true,
-      "malpracticeInsurance": true,
-      "onCallCompensation": 70,
-      "weekendDifferential": 1.5,
-      "transportationBenefit": "Parking and Transit Allowance",
-      "parkingProvided": true,
       "benefits": {
-        "healthInsurance": {
-          "provider": "Providence Health Plan",
-          "planType": "Platinum EPO",
-          "monthlyPremium": 195,
-          "deductible": 1000,
-          "outOfPocketMax": 3500,
-          "coPay": 20
-        },
-        "dentalInsurance": {
-          "provider": "Delta Dental of Washington",
-          "monthlyPremium": 28,
-          "deductible": 60,
-          "annualMaximum": 2000
-        },
-        "visionInsurance": {
-          "provider": "VSP Vision Care",
-          "monthlyPremium": 10,
-          "examCoPay": 15,
-          "frameAllowance": 150
-        },
-        "K401": {
-          "companyMatch": 6,
-          "nonElective": 2,
-          "vesting": 2,
-          "maxMatchPercentage": 8,
-          "autoEnrollment": true,
-          "loansAllowed": true
-        },
-        "additionalBenefits": {
-          "lifeInsurance": "2x annual salary",
-          "longTermDisability": true,
-          "shortTermDisability": true,
-          "flexibleSpendingAccount": true,
-          "employeeAssistanceProgram": true
+        "regionSpecific": {
+          "washington": {             
+            "waPFML": true,
+            "waCaresFund": true,
+            "stateIncomeTax": false
+          },
+          "california": {              
+            "caSDI": true,
+            "stateIncomeTax": true
+          }
         }
-      },
-      "professionalDevelopment": {
-        "tuitionReimbursement": 6000,
-        "certificationFeeCoverage": true,
-        "professionalMembershipDues": 600,
-        "researchPublicationSupport": true,
-        "mentorshipProgram": true
-      },
-      "schedule": {
-        "hoursPerWeek": 40,
-        "flexibleHours": true,
-        "remoteWorkDays": 3,
-        "coreHours": "Flexible between 7:00 AM - 6:00 PM"
-      },
-      "notes": "Part of a large regional health system with opportunities for multi-site research collaboration. Strong focus on patient outcomes research."
+      }
     }
-  ],
-  "lastUpdated": "2024-12-16",
-  "dataSource": "Washington State Healthcare Compensation Survey",
-  "notes": "All salary figures represent base annual compensation. Benefits information based on standard packages for full-time clinical research positions in Washington State healthcare organizations."
+  ]
 }
