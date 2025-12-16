@@ -1,5 +1,5 @@
 {
-    "Example Industries": {
+    ""Example Industries": {
         "Job Title": "Chief Example Officer",
         "City": "Seattle",
         "State": "Washington",
@@ -31,6 +31,40 @@
         }
       }
     
+    },
+
+   {"Example 2 Industries": {
+        "Job Title": "Chief Example Officer",
+        "City": "Seattle",
+        "State": "Washington",
+        "Province": "n/a",
+        "Country": "Burgerstan",
+        "Compensation": {
+              "Salary (annual)": "$20,000.00",
+              "Salary (monthly)": "$1666.66",
+              "Stock Options": "this is where i would put my stock options if i had any"
+              },
+        "Benefits":{
+              "Health Insurance":{
+                  "Provider": "United Healthcare",
+                  "Plan": "Washington Community Health Plan",
+                  "Deductible": "$30,000"
+                  },
+              "Dental Insurance":{
+                  "Provider": "none",
+                  "Plan": "lol, as if",
+                  "Deductible": "100%"
+                  },
+                  "K401":{
+                    "Company Match": "5%",
+                    "Non-elective Contribution": "1%",
+                    "Vesting Period:": "5 years" 
+                  },
+              "Other Benefits":{
+                  "Transportation": "Orca Card"
+        }
+      }
+      }    
     }    
 }
 
