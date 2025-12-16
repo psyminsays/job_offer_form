@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+/* Critical accessibility rule */
+:focus-visible { outline: 3px solid #8a2be2; outline-offset: 2px; }
+
+a { color: #8a2be2; text-decoration: underline; }
+a:hover { color: #6a1bb0; }
