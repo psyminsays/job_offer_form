@@ -1,4 +1,4 @@
-# Job Offer Comparison Tool - Washington State Healthcare Edition
+# Job Offer Comparison Tool
 
 ## Authors:
 Psy\
